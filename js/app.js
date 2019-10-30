@@ -37,7 +37,7 @@ if (healthPsych === 'yes' || healthPsych === 'y') {
     //console.log('That's true!');
     alert('That is true!');
 } else {
-    //console.log('Actually yes. Mental healthcare is healthcare.');
+    //console.log('Actually yes.');
     alert('Were you paying attention?');
 }
 
@@ -64,3 +64,6 @@ if (thirdChange=== 'yes' || thirdChange === 'y') {
     //console.log('No, it really is.');
     alert('No, it really is.');
 }
+
+//Farewell Greeting
+alert('Thanks for reading, ' + userName + ' ! Take care!');
