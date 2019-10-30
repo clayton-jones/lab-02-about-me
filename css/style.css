@@ -1,14 +1,21 @@
 body {
     margin: 50px;
+    background-image: url("http://www.mixxmobb.com/wp-content/uploads/2019/09/unique-stock-illustration-seamless-doughnuts-vector-background-library.jpg");
 }
 
 h1 {
+    background-color: rgb(94, 185, 207);
     text-align: center;
     font-size: 50px;
-    color: peru;
+    font-weight: bold;
+    color: rgb(146, 95, 175);
     font-family: 'Courier New', Courier, monospace
 }
 p {
-    margin-top: 25px;
+    margin: 10px;
+    border: 15px transparent;
+    padding: 15px;
     text-align: center;
+    background-color: rgb(238, 170, 229);
+    border-radius: 10%;
 }
