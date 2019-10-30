@@ -66,4 +66,4 @@ if (thirdChange=== 'yes' || thirdChange === 'y') {
 }
 
 //Farewell Greeting
-alert('Thanks for reading, ' + userName + ' ! Take care!');
+alert('Thanks for reading, ' + userName + '! Take care!');
