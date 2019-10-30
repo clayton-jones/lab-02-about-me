@@ -18,8 +18,8 @@ if (fromSeattle === 'no' || fromSeattle === 'n') {
 }
 
 //Question2
-var fremont = prompt('Do I work in Fremont?');
-fremont = fremont.toLowerCase();
+var hospitality = prompt('Do I work in hospitality');
+hospitality = hospitality.toLowerCase();
 
 if (fremont === 'yes' || fremont === 'y') {
     //console.log('Indeed.');
@@ -30,7 +30,7 @@ if (fremont === 'yes' || fremont === 'y') {
 }
 
 //Question3
-var healthPsych = prompt('Did I work in healthcare for 10 years?');
+var healthPsych = prompt('Did I work in healthcare for most of my career?');
 healthPsych = healthPsych.toLowerCase();
 
 if (healthPsych === 'yes' || healthPsych === 'y') {
@@ -38,5 +38,17 @@ if (healthPsych === 'yes' || healthPsych === 'y') {
     alert('That is true!');
 } else {
     //console.log('Actually yes. Mental healthcare is healthcare.');
-    alert('Mental healthcare is still healthcare!');
+    alert('Were you paying attention?');
+}
+
+//Question4
+var sugarAddict = prompt('Am I addicted to sugar?');
+sugarAddict = sugarAddict.toLowerCase();
+
+if (sugarAddict = 'yes' || sugarAddict = 'y') {
+    //console.log('Yes, I have a problem. Do you have any doughnuts?');
+    alert('Yes, I have a problem. Do you have any doughnuts?');
+} else {
+    //console.log('...you got it wrong');
+    alert('This is literally the most important fact about me and you got it wrong');
 }
