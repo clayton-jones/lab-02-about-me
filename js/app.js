@@ -21,7 +21,7 @@ if (fromSeattle === 'no' || fromSeattle === 'n') {
 var hospitality = prompt('Do I work in hospitality');
 hospitality = hospitality.toLowerCase();
 
-if (fremont === 'yes' || fremont === 'y') {
+if (hospitality === 'yes' || hospitality === 'y') {
     //console.log('Indeed.');
     alert('Indeed!');
 } else {
@@ -45,10 +45,22 @@ if (healthPsych === 'yes' || healthPsych === 'y') {
 var sugarAddict = prompt('Am I addicted to sugar?');
 sugarAddict = sugarAddict.toLowerCase();
 
-if (sugarAddict = 'yes' || sugarAddict = 'y') {
+if (sugarAddict === 'yes' || sugarAddict === 'y') {
     //console.log('Yes, I have a problem. Do you have any doughnuts?');
     alert('Yes, I have a problem. Do you have any doughnuts?');
 } else {
     //console.log('...you got it wrong');
     alert('This is literally the most important fact about me and you got it wrong');
+}
+
+//Question5
+var thirdChange = prompt('Is this my third career change?');
+thirdChange = thirdChange.toLowerCase();
+
+if (thirdChange=== 'yes' || thirdChange === 'y') {
+    //console.log('Truuu');
+    alert('Truuu');
+} else {
+    //console.log('No, it really is.');
+    alert('No, it really is.');
 }
