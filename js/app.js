@@ -10,10 +10,10 @@ var fromSeattle = prompt('Am I from Seattle?');
 fromSeattle = fromSeattle.toLowerCase();
 
 if (fromSeattle === 'no' || fromSeattle === 'n') {
-//console.log('Correct.);
+//console.log('Correct!');
   alert('Correct!');
 } else { 
-//console.log('Sorry, no.');
+//console.log('Milwaukee, actually.');
   alert('Milwaukee, actually.');
 }
 
@@ -22,10 +22,10 @@ var hospitality = prompt('Do I work in hospitality');
 hospitality = hospitality.toLowerCase();
 
 if (hospitality === 'yes' || hospitality === 'y') {
-  //console.log('Indeed.');
+  //console.log('Indeed! For now...');
   alert('Indeed! For now...');
 } else {
-  //console.log('Try Again.');
+  //console.log('Try again (or nah)');
   alert('Try again (or nah)');
 }
 
@@ -34,10 +34,10 @@ var healthPsych = prompt('Did I work in healthcare for most of my career?');
 healthPsych = healthPsych.toLowerCase();
 
 if (healthPsych === 'yes' || healthPsych === 'y') {
-  //console.log('That's true!');
+  //console.log('That is true!');
   alert('That is true!');
 } else {
-  //console.log('Actually yes.');
+  //console.log('Were you paying attention?');
   alert('Were you paying attention?');
 }
 
@@ -46,7 +46,7 @@ var sugarAddict = prompt('Am I addicted to sugar?');
 sugarAddict = sugarAddict.toLowerCase();
 
 if (sugarAddict === 'yes' || sugarAddict === 'y') {
-  //console.log('Yes, I have a problem. Do you have any doughnuts?');
+  //console.log('Yes, I have a problem...');
   alert('Yes, I have a problem. Do you have any doughnuts?');
 } else {
   //console.log('...you got it wrong');
@@ -61,7 +61,7 @@ if (thirdChange=== 'yes' || thirdChange === 'y') {
   //console.log('Truuu');
   alert('Truuu');
 } else {
-  //console.log('It actually is.');
+  //console.log('Actually, it is.');
   alert('*Angry buzzer noise* Actually, it is.');
 }
 
