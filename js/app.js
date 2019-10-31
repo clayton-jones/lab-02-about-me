@@ -23,7 +23,7 @@ hospitality = hospitality.toLowerCase();
 
 if (hospitality === 'yes' || hospitality === 'y') {
   //console.log('Indeed.');
-  alert('Indeed!');
+  alert('Indeed! For now...');
 } else {
   //console.log('Try Again.');
   alert('Try again (or nah)');
@@ -61,8 +61,8 @@ if (thirdChange=== 'yes' || thirdChange === 'y') {
   //console.log('Truuu');
   alert('Truuu');
 } else {
-  //console.log('No, it really is.');
-  alert('No, it really is.');
+  //console.log('It actually is.');
+  alert('*Angry buzzer noise* Actually, it is.');
 }
 
 //Farewell Greeting
