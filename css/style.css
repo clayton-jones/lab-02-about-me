@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    color: rgb(146, 95, 175);
+    color: rgb(134, 85, 247);
     font-family: 'Courier New', Courier, monospace
 }
 p {
@@ -16,6 +16,6 @@ p {
     border: 15px transparent;
     padding: 15px;
     text-align: center;
-    background-color: rgb(238, 170, 229);
+    background-color: rgb(250, 202, 244);
     border-radius: 10%;
 }
