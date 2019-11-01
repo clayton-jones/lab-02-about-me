@@ -1,6 +1,5 @@
 'use strict';
 
-console.log('this works?');
 //Greeting
 var userName = prompt('What is your name?');
 alert('Welcome, ' + userName + "!");
@@ -25,8 +24,8 @@ if (hospitality === 'yes' || hospitality === 'y') {
   //console.log('Indeed! For now...');
   alert('Indeed! For now...');
 } else {
-  //console.log('Try again (or nah)');
-  alert('Try again (or nah)');
+  //console.log('Try again, or nah');
+  alert('Try again, or nah');
 }
 
 //Question3
@@ -63,6 +62,33 @@ if (thirdChange=== 'yes' || thirdChange === 'y') {
 } else {
   //console.log('Actually, it is.');
   alert('*Angry buzzer noise* Actually, it is.');
+}
+
+//Age Guessing Game
+var guessAge = parseInt(prompt('Can you guess my age?'));
+
+for (var i = 0; i < 4; i ++) {
+  if (guessAge < 27) {
+    prompt('I am flattered, but you guessed too low! Try again.');
+  } else if (guessAge >= 28) {
+    prompt('Too high this time. Try again please.');
+  } else (guessAge === 27) {
+    alert('Yes!');
+  }
+}
+
+//Multiple Choice Question
+var multipleChoice = prompt('Can you guess my favorite sweet treat?');
+var whichDessert = ['doughnuts', 'cookies', 'cake', 'pie', 'baklava'];
+multipleChoice === multipleChoice.toLowerCase();
+
+for (var i = 0; i < 5; i++) {
+  if (multipleChoice === whichDessert[0]) {
+    alert('You already knew! How?');
+    break;
+  } else {
+    prompt('Try again!');
+  }
 }
 
 //Farewell Greeting
