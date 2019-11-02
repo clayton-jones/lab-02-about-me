@@ -4,46 +4,55 @@ var trackCorrect = 0;
 
 //Greeting
 var userName = prompt('What is your name?');
-alert('Welcome, ' + userName + "!");
+alert('Welcome, ' + userName + '!');
 
 //Question1
-var fromSeattle = prompt('Am I from Seattle?');
-fromSeattle = fromSeattle.toLowerCase();
-
-if (fromSeattle === 'no' || fromSeattle === 'n') {
-//console.log('Correct!');
-  alert('Correct!');
-  trackCorrect++;
-} else { 
-//console.log('Milwaukee, actually.');
-  alert('Milwaukee, actually.');
+function fromSeattle() {
+  var fromSeattle = prompt('Am I from Seattle?');
+  fromSeattle = fromSeattle.toLowerCase();
+  
+  if (fromSeattle === 'no' || fromSeattle === 'n') {
+  //console.log('Correct!');
+    alert('Correct!');
+    trackCorrect++;
+  } else { 
+  //console.log('Milwaukee, actually.');
+    alert('Milwaukee, actually.');
+  }
 }
+fromSeattle();
 
 //Question2
-var hospitality = prompt('Do I work in hospitality');
-hospitality = hospitality.toLowerCase();
-
-if (hospitality === 'yes' || hospitality === 'y') {
-  //console.log('Indeed! For now...');
-  alert('Indeed! For now...');
-  trackCorrect++;
-} else {
-  //console.log('Try again');
-  alert('Try again');
+function hospitality() {
+  var hospitality = prompt('Do I work in hospitality');
+  hospitality = hospitality.toLowerCase();
+  
+  if (hospitality === 'yes' || hospitality === 'y') {
+    //console.log('Indeed! For now...');
+    alert('Indeed! For now...');
+    trackCorrect++;
+  } else {
+    //console.log('Try again');
+    alert('Try again');
+  }
 }
+hospitality();
 
 //Question3
-var healthPsych = prompt('Did I work in healthcare for most of my career?');
-healthPsych = healthPsych.toLowerCase();
-
-if (healthPsych === 'yes' || healthPsych === 'y') {
-  //console.log('That is true!');
-  alert('That is true!');
-  trackCorrect++;
-} else {
-  //console.log('Were you paying attention?');
-  alert('Were you paying attention?');
+function healthPsych() {
+  var healthPsych = prompt('Did I work in healthcare for most of my career?');
+  healthPsych = healthPsych.toLowerCase();
+  
+  if (healthPsych === 'yes' || healthPsych === 'y') {
+    //console.log('That is true!');
+    alert('That is true!');
+    trackCorrect++;
+  } else {
+    //console.log('Were you paying attention?');
+    alert('Were you paying attention?');
+  }
 }
+healthPsych();
 
 //Question4
 var sugarAddict = prompt('Am I addicted to sugar?');
