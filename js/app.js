@@ -28,8 +28,8 @@ if (hospitality === 'yes' || hospitality === 'y') {
   alert('Indeed! For now...');
   trackCorrect++;
 } else {
-  //console.log('Try again, or nah');
-  alert('Try again, or nah');
+  //console.log('Try again');
+  alert('Try again');
 }
 
 //Question3
@@ -94,13 +94,13 @@ while (counter < 4) {
 
 //Multiple Choice Question 7
 var multipleChoice = prompt('Can you guess my favorite desserts?');
-var whichDessert = ['doughnuts', 'baklava'];
+var whichDessert = ['doughnuts', 'cake', 'baklava'];
 multipleChoice === multipleChoice.toLowerCase();
 var i = 0;
 
 while (i < 6) {
 
-  if (multipleChoice === whichDessert[0] || multipleChoice === whichDessert[1]) {
+  if (multipleChoice === whichDessert[i]) {
     alert('You already knew! How?');
     trackCorrect++;
     break;
@@ -109,7 +109,7 @@ while (i < 6) {
   }
   i++;
   if (i === 7) {
-    alert('You could have guessed doughnuts or baklava; you would have been right.')
+    alert('You could have guessed doughnuts, cake, or baklava; you would have been right.')
   }
 }
 
