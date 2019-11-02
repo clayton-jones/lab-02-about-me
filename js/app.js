@@ -10,12 +10,12 @@ alert('Welcome, ' + userName + '!');
 function fromSeattle() {
   var fromSeattle = prompt('Am I from Seattle?');
   fromSeattle = fromSeattle.toLowerCase();
-  
+
   if (fromSeattle === 'no' || fromSeattle === 'n') {
   //console.log('Correct!');
     alert('Correct!');
     trackCorrect++;
-  } else { 
+  } else {
   //console.log('Milwaukee, actually.');
     alert('Milwaukee, actually.');
   }
@@ -26,7 +26,7 @@ fromSeattle();
 function hospitality() {
   var hospitality = prompt('Do I work in hospitality');
   hospitality = hospitality.toLowerCase();
-  
+
   if (hospitality === 'yes' || hospitality === 'y') {
     //console.log('Indeed! For now...');
     alert('Indeed! For now...');
@@ -42,7 +42,7 @@ hospitality();
 function healthPsych() {
   var healthPsych = prompt('Did I work in healthcare for most of my career?');
   healthPsych = healthPsych.toLowerCase();
-  
+
   if (healthPsych === 'yes' || healthPsych === 'y') {
     //console.log('That is true!');
     alert('That is true!');
@@ -58,7 +58,7 @@ healthPsych();
 function sugarAddict() {
   var sugarAddict = prompt('Am I addicted to sugar?');
   sugarAddict = sugarAddict.toLowerCase();
-  
+
   if (sugarAddict === 'yes' || sugarAddict === 'y') {
     //console.log('Yes, I have a problem...');
     alert('Yes, I have a problem. Do you have any doughnuts?');
@@ -74,7 +74,7 @@ sugarAddict();
 function thirdChange() {
   var thirdChange = prompt('Is this my third career change?');
   thirdChange = thirdChange.toLowerCase();
-  
+
   if (thirdChange=== 'yes' || thirdChange === 'y') {
     //console.log('Truuu');
     alert('Truuu');
