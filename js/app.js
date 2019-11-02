@@ -96,26 +96,32 @@ while (counter < 4) {
     alert('*Angry Buzzer Noise*');
   }
   counter++;
+  if (counter === 4) {
+    alert('The answer is 27.');
+  }
 }
 
-if (counter === 4) {
-  alert('The answer is 27.');
+
+
+//Multiple Choice Question
+var multipleChoice = prompt('Can you guess my favorite desserts?');
+var whichDessert = ['doughnuts', 'baklava'];
+multipleChoice === multipleChoice.toLowerCase();
+var i = 0;
+
+while (i < 6) {
+
+  if (multipleChoice === whichDessert[0] || multipleChoice === whichDessert[1]) {
+    alert('You already knew! How?');
+    break;
+  } else {
+    prompt('Guess Again!');
+  }
+  i++;
+  if (i === 7) {
+    alert('You could have guessed doughnuts or baklava; you would have been right.')
+  }
 }
-
-
-// //Multiple Choice Question
-// var multipleChoice = prompt('Can you guess my favorite sweet treat?');
-// var whichDessert = ['doughnuts', 'cookies', 'cake', 'pie', 'baklava'];
-// multipleChoice === multipleChoice.toLowerCase();
-
-// for (var ii = 0; ii < whichDessert.length; ii++) {
-//   if (multipleChoice === whichDessert[0]) {
-//     alert('You already knew! How?');
-//     break;
-//   } else {
-//     prompt('Try again!');
-//   }
-// }
 
 //Farewell Greeting
 alert('Thanks for reading, ' + userName + '! Take care!');
