@@ -11,12 +11,12 @@ h1 {
     font-weight: bold;
     color: rgb(134, 85, 247);
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 45%;
 }
 
 h2 {
     font-size: 20px;
     text-align: center;
+    text-decoration: underline;
 
 }
 
@@ -26,13 +26,11 @@ p {
     padding: 20px;
     text-align: center;
     background-color: rgb(250, 202, 244);
-    border-radius: 20%;
 }
 
-ul{
+ul {
     background-color: rgb(245, 194, 100);
-    display: inline-block;
-    margin: 50px;
+    margin: 20px, 50px;
     border: 15px transparent;
     padding: 10px; 
     text-align: center;
@@ -40,9 +38,12 @@ ul{
 
 ol {
     background-color: rgb(171, 248, 161);
-    display: inline-block;
-    margin: 50px;
+    margin: 20px, 50px;
     border: 15px transparent;
     padding: 10px; 
     text-align: center;
+}
+
+#small {
+    font-size: 13px;
 }
